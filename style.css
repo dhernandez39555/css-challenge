@@ -1,0 +1,48 @@
+.button{
+    margin: 15em;
+    margin-left: 10em;
+    border: .5em solid black;
+    padding-top: 3em;
+    padding-left: 5em;
+    padding-bottom: 3em;
+    padding-right: 20em;
+    background: blue;
+    color: white;
+    }
+
+.button:hover{
+    background-color: aqua;
+}
+
+.button:focus{
+    background:gray;
+}
+
+ion-icon{
+    background-color: rgba (0,0,0,100);
+    position: relative;
+    left: 15em;
+    width: 2em;
+    height: 2em;
+
+}
+
+/*
+form > button > span {
+    float: right;
+    background-color: #2f3f69;
+    padding: 1em;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+#submit{
+    border:none;
+    min-width: 250px;
+    padding: 0;
+    text-align: left;
+    border-radius: 3px;
+    background-color: #192a56;
+    color: white;
+    font-size: 12pt;
+}
+*/
